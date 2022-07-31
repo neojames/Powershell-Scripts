@@ -9,7 +9,7 @@
 .DESCRIPTION
 	Simply output members of a group in a nice(ish) HTML file.
 .EXAMPLE
-	TODO: Fill out later.
+	ADGetUsers.ps1 -Path "C:\Reports" -Overwrite -Online -Credential "user@example.com"
 .PARAMETER Path
 	Path to output folder. Defaults to current working directory.
 .PARAMETER Overwrite
@@ -19,7 +19,7 @@
 .PARAMETER Credential
 	Office 365 username
 .LINK
-	TODO: Add github
+	https://github.com/neojames/Powershell-Scripts
 #>
 
  param (
